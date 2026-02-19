@@ -11,7 +11,7 @@ export default function Herosection() {
   return (
     <div
       id='home'
-      className='max-w-7xl mx-auto font-playfair relative min-h-screen flex flex-col lg:flex-row gap-10 lg:gap-20 px-4 sm:px-6 md:px-10 pt-20 md:pt-40 lg:pt-60 overflow-hidden font-[var(--font-playfair)]'
+      className='max-w-7xl mx-auto font-playfair relative min-h-screen flex flex-col lg:flex-row gap-10 lg:gap-20 px-4 sm:px-6 md:px-10 pt-30 md:pt-20 lg:pt-45 overflow-hidden font-[var(--font-playfair)]'
     >
       {/* Left Section */}
       <div className='flex-1'>
