@@ -1,5 +1,6 @@
 import React from 'react';
 import { TiStarFullOutline } from "react-icons/ti";
+import minnalmutta from "../assets/minnalmutta.png";
 
 export default function Herosection() {
   const productName = "(Egg Name)";
@@ -74,7 +75,7 @@ export default function Herosection() {
         </div>
 
         {/* Egg Image */}
-        <img src="/src/assets/minnalmutta.png" alt="Egg" className="w-72 sm:w-72 md:w-180 h-72 sm:h-72 md:h-180 relative drop-shadow-2xl z-10 animate-[jump_1.5s_ease-in-out_infinite]" />
+        <img src={minnalmutta} alt="Egg" className="w-72 sm:w-72 md:w-180 h-72 sm:h-72 md:h-180 relative drop-shadow-2xl z-10 animate-[jump_1.5s_ease-in-out_infinite]" />
       </div>
     </div>
   )
