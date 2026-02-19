@@ -61,7 +61,7 @@ export default function Review() {
               <img
                 src={item.image}
                 alt={item.name}
-                className="h-full w-full object-cover"
+                className="h-full w-full  object-cover object-[center_25%]"
               />
             </div>
 
